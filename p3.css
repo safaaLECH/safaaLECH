@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(R.jpeg);
+  
+}
+.d1{
+    height: 60px;
+    width: 100%;
+  
+}
+h1{
+    float: left;
+    color: white;
+
+}
+.ul1{
+float: right;
+list-style: none;
+
+}
+.li1{
+float: left;
+padding: 10px;
+font-size: medium;
+color: blanchedalmond;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(R.jpeg) no-repeat center center/cover;
+
+
+}
+
+.container form{
+    width: 67px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgb(0, 0, rgb(3, 3, 7));
+    border-radius: 15px;
+    background:rgb(255, 255, 255,0,1) ;
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+.container form h1{
+    color: beige;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+.container form input{
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background:none ;
+    border-bottom: 2px solid cornsilk;
+
+}
+.container form input::placeholder{
+    color: #ddd;
+}
+.container form h4{
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+

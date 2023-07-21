@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(R.jpeg);
+}
+
+  
+.d1{
+    height: 60px;
+    width: 100%;
+  
+}
+h1{
+    float: left;
+    color: white;
+
+}
+.ul1{
+float: right;
+list-style: none;
+
+}
+.li1{
+float: left;
+padding: 10px;
+font-size: medium;
+color: blanchedalmond;
+}
+.da{
+    line-height: 40px;
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+.db{
+    line-height: 40px;
+    color: beige;
+}
+
+
+#parent{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+ min-height: 100vh;
+ background: url(R.jpeg) no-repeat center center/cover;
+
+
+}
+
+
